@@ -1,0 +1,297 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    display:flex;
+       
+}
+
+.main .left{
+
+    margin-top: 60px;
+    margin-left: 190px;
+}
+.main .left nav img{
+    width: 30%;
+    padding: 20px;
+    
+}
+.main .left nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.left nav .sign{
+    width:120px;
+    height: 39px;
+    font-size: 15px;
+    background-color:black;
+    color:white;
+    border: none;
+    
+}
+    
+.left nav button{
+    color:black;
+    background-color: transparent;
+    border: none;
+    padding: 0 2rem;
+    letter-spacing: 0;
+    margin-inline: 0px;
+    margin-top: 1px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.main .main-img{
+    width: 600px;
+    height: 550px;
+    
+   
+}
+.main .left .txt{
+    margin-left: 50px;
+    margin-top: 5px;
+    padding-left: 10px;
+    
+}
+.left .txt h1{
+    font-size: 35px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+.left .txt p{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+     color: #282c3f;
+}
+.left .txt .inp{
+    display: flex; 
+    
+}
+.left .txt input{
+    width: 450px;
+    height: 50px;
+    border: 0.5px solid;
+    white-space: nowrap;
+    
+}
+.left .txt .inp button{
+
+    width: 120px;
+    height: 52px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    font-weight: bold;
+    color:white;
+    background-color:#fc8019;
+    border: #fc8019;
+
+}
+.main .left #section-1{
+      font-size: 20%;
+      font-weight: bolder;
+      color: #a9abb2;
+      margin: 30px 0 10px;
+      letter-spacing: -.2px;
+      text-transform: uppercase;
+ }
+
+ .center {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(36, 19, 7);
+    text-align: center;
+    color: white;
+    padding: 44px;
+
+ }
+ .center .cntr img{
+    width: 33%;
+
+ }
+
+ .center .first{
+    height: 150px;
+    padding-bottom: 110px;
+    font-size: 15px;
+    width: 260px;
+    margin-top: 10px;
+    color: #e0cbc1;
+   line-height: 1.3;
+
+ }
+ .center .cntr{
+    height: 150px;
+    padding-bottom: 110px;
+    font-size: 15px;
+    width: 260px;
+    margin-top: 10px;
+    color: #e0cbc1;
+   line-height: 1.3;
+
+ }
+ 
+  
+ .center .cntr h3{
+
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 0;
+  color: rgb(255, 255, 255);
+  font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+    
+  letter-spacing: normal;
+   line-height: 24px
+}
+
+ .center .cntr p{
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+    padding-top: 10px;  
+
+
+   }
+
+
+ 
+ .bottom{
+    display: flex;
+ }
+
+ .bottom .leftside{
+
+    padding-top: 100px;
+ }
+
+ .bottom .leftside h5{
+
+     margin-left: 100px;
+
+    color: rgb(40, 44, 63);
+     font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+      font-size: 40px;
+      font-weight: 600;  
+      width: 300px;
+
+ }
+
+ .bottom .leftside p{
+     
+    padding-top: 2px;
+    color: rgb(40, 44, 63);
+     font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+     margin-left: 100px;
+     width: 400px;
+    font-weight: 300;
+    
+
+ }
+
+ .bottom img{
+    display: flex;
+    
+ }
+ .bottom .centerside{
+
+    margin-left: 300px;
+    
+ }
+
+ .playstore{
+
+    margin-left: 100px;
+ }
+
+ .bottom .rightside{
+
+    padding-left: 50px;
+    padding-top: 100px;
+ }
+
+  .bottom img{
+    width: 80%;
+ }
+
+ .footer{
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    padding: 44px;
+ }
+
+ 
+
+  .leftside .Company {
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+    color: gray;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 100;
+    padding-bottom: 15px;
+    margin-top: 20px;
+
+ }
+
+ .leftside p{
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+    padding: 5px;
+    color: gray;
+
+
+ }
+
+ .contactdetails .contact{
+
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+    color: gray;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 100;
+    padding-bottom: 15px;
+    margin-top: 20px;
+
+ }
+
+ .contactdetails p{
+
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+    padding: 5px;
+    color: gray;
+ }
+
+ .legaldetails h2{
+
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+    color: gray;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 100;
+    padding-bottom: 15px;
+    margin-top: 20px;
+
+ }
+
+ .legaldetails p{
+
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+    padding: 5px;
+    color: gray;
+ }
+
+ .appstoreicons .image{
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+
+ }
+
+    
+
